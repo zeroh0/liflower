@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+.signup {
+	text-align: center;
+}
+
+.process {
+	font-family: 'Noto Sans KR';
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.process ul li {
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	color: #666;
+}
+
+.process ul li:first-child{
+	color: #222;
+	font-weight: 700;
+}
+
+.process ul li::before{
+	content: url( "../_img/next-step.png" );
+	width: 14px;
+	height: 25px;
+	padding: 0 35px 0 35px;
+	vertical-align: -15%;
+}
+
+.process ul li:first-child::before{
+	content: none;
+}
+
+.process ul li:last-child::before{
+	content: url( "../_img/step.png" );
+	width: 14px;
+	height: 25px;
+	padding: 0 35px 0 35px;
+	vertical-align: -15%;
+}
+
+#signup_checkbox {
+	font-family: 'Noto Sans KR';
+	width: 650px;
+	display: inline-block;
+}
+
+#checks {
+	height: 65px;
+	line-height: 65px;
+	text-align: left;
+	font-weight: 500;
+	padding-left: 25px;
+}
+
+#accodian {
+	text-align: left;
+	width: 650px;
+}
+
+#accodian dl dt{
+	line-height: 65px;
+	height: 65px;
+	cursor: pointer;
+	padding-left: 25px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	background: url("../_img/select_arrow_down.png") no-repeat 95% 50%;
+}
+
+#accodian dl #dt2{
+	border-top: 0px;
+}
+
+/*
+#accodian dl #dt1{
+	border-top: 1px solid #222;
+}
+*/
+
+#accodian dl dd{
+	font-size: 14px;
+	overflow: auto;
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-top: 0px;
+	height: 245px;
+	padding: 20px 0px 0px 25px;
+}
+
+
+#accodian dl dd .terms {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+#accodian dl dd .terms_exp {
+	line-height: 24px;
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 30px;
+}
+
+#accodian dl dd .terms_exp span{
+	color: #222;
+}
+
+#agree_btn {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+#agree_reset {
+	float: left;
+	margin-right: 10px;
+}
+
+#agree_check {
+	float: left;
+}
+
+

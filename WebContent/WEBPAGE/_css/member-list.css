@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.member_list {
+    width: 1200px;
+    font-family: 'Noto Sans KR';
+}
+
+.depth_menu {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.depth_menu span {
+    padding-left: 10px;
+}
+
+.member_field {
+    width: 1200px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.member_field thead tr {
+    height: 40px;
+    background-color: #3f4441;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.member_field thead tr th {
+    color: #fff;
+}
+
+.member_field thead tr th:nth-child(1) {
+    width: 95px;
+}
+
+.member_field thead tr th:nth-child(2) {
+    width: 135px;
+}
+
+.member_field thead tr th:nth-child(3) {
+    width: 200px;
+}
+
+.member_field thead tr th:nth-child(4) {
+    width: 140px;
+}
+
+.member_field thead tr th:nth-child(5) {
+    width: 100px;
+}
+
+.member_field thead tr th:nth-child(6) {
+    width: 465px;
+}
+
+.member_field thead tr th:nth-child(7) {
+    width: 65px;
+}
+
+
+.member_field tbody tr {
+    height: 59px;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 13px;
+    text-align: center;
+}
+    

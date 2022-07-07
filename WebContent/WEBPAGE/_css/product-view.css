@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+.view_field {
+    padding-top: 60px;
+    width: 1200px;
+    font-family: 'Noto Sans KR';
+}
+
+.row {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    /* Adding for cross browser support */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.view_img {
+    width: 530px;
+    height: 710px;
+    /* background-color: #ccc; */
+}
+
+.title_img {
+    width: 530px;
+    height: 580px;
+}
+
+.view_txt {
+    width: 590px;
+    height: 580px;
+}
+
+.view_txt .name {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.prod_table {
+    
+}
+
+.prod_table table {
+    width: 590px;
+    height: 223px;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0px 25px 0px;
+}
+
+.prod_table table tr{
+    height: 30px;
+}
+
+.prod_table table tr td:nth-child(1){
+    width: 160px;
+    font-size: 16px;
+    color: #666;
+}
+
+.prod_table table tr td:nth-child(2){
+    font-size: 17px;
+}
+
+.prod_table table tr td span{
+    font-size: 24px;
+    color: #497320;
+    font-weight: 700;
+}
+
+.prod_box {
+    margin-top: 70px;
+    width: 590px;
+    height: 78px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #222;
+    display: flex;
+    align-items: center;
+    
+}
+
+.prod_box table {
+    width: 590px;
+    height: 78px;
+}
+
+.prod_box table tr td:nth-child(1) {
+    width: 255px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.prod_box table tr td:nth-child(2) {
+    width: 132px;
+}
+
+.prod_box table tr td:nth-child(3) {
+    width: 183px;
+    padding-right: 35px;
+    text-align: right;
+    font-size: 17px;
+}
+
+.amount_box {
+    width: 132px;
+    height: 35px;
+}
+
+.amount_box input[type=text] {
+    width: 62px;
+    height: 33px;
+    border: 1px solid #ddd;
+    font-size: 17px;
+    text-align: center;
+}
+
+.minus {
+    float: left;
+}
+
+.input_number {
+    float: left;
+}
+
+.plus {
+    float: left;
+}
+
+.prod_price {
+    text-align: right;
+}
+
+.total {
+    margin-top: 30px;
+}
+
+.total table {
+    width: 590px;
+}
+
+.total table tr td:nth-child(1){
+    font-size: 16px;
+    width: 435px;
+    text-align: right;
+}
+
+.total table tr td:nth-child(2){
+    font-size: 17px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.total table tr td span{
+    font-size: 32px;
+    font-weight: 700;
+    color: #497320;
+}
+
+.view_btn {
+    margin-top: 19px;
+    float: right;
+}
+
+.backet {
+    width: 161px;
+    height: 58px;
+}
+
+.purchase {
+    width: 161px;
+    height: 58px;
+}
+
+.view_btn {
+    
+}
+
+.view_btn .basket {
+    float: left;
+    margin-right: 15px;
+}
+
+.view_btn .purchase {
+    float: left;
+}

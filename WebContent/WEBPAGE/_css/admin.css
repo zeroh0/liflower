@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.page {
+    width: 1200px;
+    font-family: 'Noto Sans KR';
+}
+
+.page_menu {
+    margin: 0 auto;
+    width: 950px;
+    height: 600px;
+}
+
+.tr .inner_menu {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.tr .inner_menu:nth-child(3){
+    margin-right: 0px;
+}

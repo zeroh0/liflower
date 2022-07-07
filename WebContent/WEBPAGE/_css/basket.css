@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+.basket_table {
+	width: 1200px;
+	display: flex;
+    justify-content: space-between;
+    /* Adding for cross browser support */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.member_list {
+    width: 1200px;
+    font-family: 'Noto Sans KR';
+    display: flex;
+    justify-content: space-between;
+    /* Adding for cross browser support */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.depth_menu {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.depth_menu span {
+    padding-left: 10px;
+}
+
+.member_field {
+    width: 865px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    float: left;
+    
+}
+
+.member_field thead tr {
+    height: 40px;
+    background-color: #3f4441;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.member_field thead tr th {
+    color: #fff;
+}
+
+.member_field thead tr th:nth-child(1) {
+    width: 50px;
+}
+
+.member_field thead tr th:nth-child(2) {
+    width: 340px;
+}
+
+.member_field thead tr th:nth-child(3) {
+    width: 140px;
+}
+
+.member_field thead tr th:nth-child(4) {
+    width: 100px;
+}
+
+.member_field thead tr th:nth-child(5) {
+    width: 140px;
+}
+
+.member_field thead tr th:nth-child(6) {
+    width: 95px;
+}
+
+
+.member_field tbody tr {
+	position: relative;
+    height: 119px;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+
+.member_field tbody tr span{
+    padding-left: 0px;
+}
+
+
+.member_field tbody input[type=text] {
+	width: 43px;
+	height:31px;
+	border: 1px solid #ccc;
+	text-align:center;
+}
+
+.count_number {
+	float:left;
+}
+
+.count_btn {
+	float:left;
+	margin-left:5px;
+}
+
+.basket {
+    margin-left: 25px;
+    float: left;
+    width: 280px;
+    height: 295px;
+    background-color: #f5f5f5;
+    font-family: 'NanumSquare';
+    transform: skew(-0.03deg);
+    padding: 20px 15px 20px 15px;
+}
+
+.basket .basket_pay {  
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.basket .pay {
+    padding: 10px 0px 5px 0px;
+    margin-top: 10px;
+    width: 100%;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #ccc;
+    border-spacing: 15px;
+}
+
+.basket .pay tr td:nth-child(1){
+    font-size: 16px;
+    color: #555;
+}
+
+.basket .pay tr td:nth-child(2){
+    font-size: 16px;
+    text-align: right;
+}
+
+.basket .amount {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    text-align: right;
+}
+
+.basket .price {
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #497320;
+}
+
+.basket .pay_btn {
+    width: 100%;
+    height: 60px;
+    margin-top: 25px;
+}
+
+    

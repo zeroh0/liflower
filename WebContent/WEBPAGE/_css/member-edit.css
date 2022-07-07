@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+.update_memeber {
+    font-family: 'Noto Sans KR';
+    text-align: center;
+}
+
+.edit_field {
+    width: 650px;
+    display: inline-block;
+    text-align: left;
+}
+
+.edit_title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line {
+    width: 650px;
+    height: 1px;
+    background-color: #222;
+    margin-top: 10px;
+}
+
+.update_field {
+    text-align: center;
+}
+
+select::-ms-expand { display: none; }
+
+.update input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.update input:-ms-input-placeholder {
+  color: #999;
+}
+
+.space {
+    height: 35px;
+}
+
+.separation {
+    height: 10px;
+}
+
+.update {
+    display: inline-block;
+    margin-top: 25px;
+    width: 650px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+
+.update tr td:nth-child(1){
+    width: 150px;
+    font-size: 16px;
+}
+
+.update tr td:nth-child(2){
+    width: 500px;
+}
+
+.update input[type=text] {
+    padding-left: 20px;
+    width: 478px;
+    height: 38px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.update .input_email input[type=text] {
+    padding-left: 20px;
+    width: 478px;
+    height: 38px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.update .input_email select{
+    padding-left: 20px;
+    width: 178px;
+    height: 38px;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url("../img/select_arrow_down.png") no-repeat 90% 50%; 
+}
+
+.update .input_tel select {
+    padding-left: 20px;
+    width: 88px;
+    height: 38px;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url("../img/select_arrow_down.png") no-repeat 90% 50%; 
+}
+
+.update .input_tel input[type=text] {
+    padding-left: 20px;
+    width: 478px;
+    height: 38px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.update .input_address input[type=text] {
+    padding-left: 20px;
+    width: 478px;
+    height: 38px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.update .input_address #post {
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    float: left;
+}
+
+.edit_btn {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.cancel {
+    float: left;
+}
+
+.check {
+    margin-left: 10px;
+    float: left;
+}
+
+
+/* */
+.passwd_chg {
+    display: inline-block;
+    margin-top: 25px;
+    width: 650px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.passwd_chg tr td:nth-child(1){
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.passwd_chg tr td:nth-child(2){
+    width: 500px;
+    height: 40px;
+}
+
+.passwd_chg input[type=password] {
+    font-size: 14px;
+    padding-left: 20px;
+    width: 478px;
+    height: 38px;
+    border: 1px solid #ccc;
+}
+
+.del_member {
+    display: inline-block;
+    margin-top: 25px;
+    width: 650px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.del_member tr td:nth-child(1){
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.del_member tr td:nth-child(2){
+    width: 500px;
+    height: 40px;
+}
+
+.del_member tr:nth-child(3) td:nth-child(2){
+    font-size: 12px;
+    color: #999;
+}
+
+.del_member input[type=password] {
+    font-size: 14px;
+    padding-left: 20px;
+    width: 478px;
+    height: 38px;
+    border: 1px solid #ccc;
+}

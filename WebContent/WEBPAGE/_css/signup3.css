@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.signup {
+	text-align: center;
+}
+
+.process {
+	font-family: 'Noto Sans KR';
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.process ul li {
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	color: #666;
+}
+
+.process ul li:nth-child(3){
+	color: #222;
+	font-weight: 700;
+}
+
+.process ul li::before{
+	content: url( "../_img/step.png" );
+	width: 14px;
+	height: 25px;
+	padding: 0 35px 0 35px;
+	vertical-align: -15%;
+}
+
+.process ul li:first-child::before{
+	content: none;
+}
+
+.process ul li:last-child::before{
+	content: url( "../_img/step.png" );
+	width: 14px;
+	height: 25px;
+	padding: 0 35px 0 35px;
+	vertical-align: -15%;
+}
+
+#signup_form {
+	font-family: 'Noto Sans KR';
+	width: 650px;
+	display: inline-block;
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #d6d6d6;
+	padding-top: 60px;
+}
+
+#welcome_txt {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+#welcome_btn {
+	height: 65px;
+	margin-bottom: 65px;
+}
+

@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+.member_list {
+    width: 1200px;
+    font-family: 'Noto Sans KR';
+}
+
+.depth_menu {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.depth_menu span {
+    padding-left: 10px;
+}
+
+.member_field {
+    width: 1200px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.member_field thead tr {
+    height: 40px;
+    background-color: #3f4441;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.member_field thead tr th {
+    color: #fff;
+}
+
+.member_field thead tr th:nth-child(1) {
+    width: 185px;
+}
+
+.member_field thead tr th:nth-child(2) {
+    width: 150px;
+}
+
+.member_field thead tr th:nth-child(3) {
+    width: 220px;
+}
+
+.member_field thead tr th:nth-child(4) {
+    width: 100px;
+}
+
+.member_field thead tr th:nth-child(5) {
+    width: 140px;
+}
+
+.member_field thead tr th:nth-child(6) {
+    width: 155px;
+}
+
+.member_field thead tr th:nth-child(7) {
+    width: 250px;
+}
+
+.member_field tbody tr {
+    height: 119px;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 13px;
+    text-align: center;
+}
+
+.member_field select {
+    width: 130px;
+    height: 30px;
+    padding-left: 15px;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url("../_img/select_arrow_down.png") no-repeat 95% 50%; 
+}
+
+#order_select {
+    width: 130px;
+    height: 30px;
+    float: left;
+}
+
+#order_chg {
+    margin-left: 10px;
+    float: left;
+    width: 60px;
+    height: 30px; 
+}
+
+.ordering {
+	display: inline-block;
+}

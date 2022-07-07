@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+#board {
+    width: 1200px;
+}
+
+#board-title span{
+    margin-left: 5px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#board-exp {
+    margin-top: 5px;
+    font-family: 'NanumSquare';
+    transform: skew(-0.03deg);
+    font-size: 13px;
+    color: #939393;
+}
+
+#delete {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1200px;
+    height: 335px;
+    border: 1px solid #d7d5d5;
+    margin-bottom: 100px;
+    text-align: center;
+    position: relative;
+}
+
+#delete-title {
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+#delete-exp {
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#delete-exp span:nth-child(1) {
+    color: #222222;
+}
+
+#delete-exp #span {
+    color: #757575;
+    width: 1200px;
+    
+}
+
+#delete-password {
+    display: inline-block;
+}
+
+#delete-password #password-span {
+    float: left;
+    margin-right: 15px;
+    height: 40px;
+    color: #222222;
+    font-family: 'Noto Sans KR';
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#delete-password #password-input {
+    float: left;
+    
+}
+
+#delete-password #password-input input[type=password]{
+    width: 185px;
+    height: 25px;
+    border: 1px solid #d5d5d5;
+    padding-left: 20px;
+}
+
+#delete-btn {
+    position: relative;
+    width: 600px;
+    height: 40px;
+    left: 100%;
+    margin-left: -725px;
+    margin-top: 35px;
+}
+
+#delete-list {
+    float: left;
+    margin-right: 10px;
+}
+
+#delete-check {
+    float: left;
+}

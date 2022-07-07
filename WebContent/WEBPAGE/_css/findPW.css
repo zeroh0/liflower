@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+#findPW_parents {
+	text-align: center;
+}
+
+#findPW {
+	display: inline-block;
+	font-family: 'Noto Sans KR';
+	width: 650px;
+	border-bottom: 1px solid #ccc;	
+	text-align: center;
+}
+
+.select_find {
+	width: 650px;
+	height: 50px;
+	border-bottom: 3px solid #497320;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.select_pw {
+	width: 325px;
+	height: 50px;
+	border-bottom: 3px solid #497320;
+	float: left;
+}
+
+.select_id {
+	width: 325px;
+	height: 50px;
+	border-bottom: 3px solid #ccc;
+	float: left;
+}
+
+.select_id a {
+	color: #ccc;
+}
+
+
+.findPW_field {
+	display: inline-block;
+}
+
+.findPW_table {
+	width: 405px;
+	margin-bottom: 40px;
+	border-spacing: 0px;
+}
+
+.space {
+	height: 10px;
+}
+
+.findPW_table .column {
+	width: 115px;
+	height: 50px;
+	text-align: left;
+	font-size: 16px;
+}
+
+.findPW_table .inputbox {
+	width: 290px;
+	height: 50px;
+	text-align: left;
+}
+
+.findPW_table .inputbox_email{
+	width: 290px;
+	height: 50px;
+	text-align: left;
+	line-height: 50px;
+	font-size: 16px;
+}
+
+.findPW_table .inputbox input[type=text] {
+	width: 268px;
+	height: 48px;
+	border: 1px solid #ccc;
+	padding-left: 20px;
+	font-family: 'Noto Sans KR';
+	font-size: 14px;
+	color: #222;
+}
+
+.findPW_table .inputbox_email input[type=text]{
+	width: 109.5px;
+	height: 48px;
+	border: 1px solid #ccc;
+	padding-left: 20px;
+	font-family: 'Noto Sans KR';
+	font-size: 14px;
+	color: #222;
+}
+
+.findPW_table .inputbox_email select{
+	width: 129px;
+	height: 50px;
+	padding-left: 20px;
+	border: 1px solid #ccc;
+	line-height: 50px;
+	font-size: 14px;
+	
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url("../_img/select_arrow_down.png") no-repeat 90% 50%;
+}
+
+.findPW_table .inputbox_email select::-ms-expand { display: none; }
+
+
+.findPW_table .inputbox input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.findPW_table .inputbox input:-ms-input-placeholder {
+  color: #999;
+}
+
+.findPW_table .inputbox_email input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.findPW_table .inputbox_email input:-ms-input-placeholder {
+  color: #999;
+}
+
+#findPW_btn {
+	margin-bottom: 5px;
+}
+
+.etc {
+	text-align: left;
+	color: #555;
+	font-size: 13px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}

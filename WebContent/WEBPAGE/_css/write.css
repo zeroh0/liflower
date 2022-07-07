@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+#board {
+    width: 1200px;
+}
+
+#board-title span{
+    margin-left: 5px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#board-exp {
+    margin-top: 5px;
+    font-family: 'NanumSquare';
+    transform: skew(-0.03deg);
+    font-size: 13px;
+    color: #939393;
+}
+
+#write-field {
+    border-collapse:collapse;
+    width: 1200px;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    border-spacing: 0px;
+    font-family: 'Noto Sans KR';
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#write-field tr {height: 40px; border-bottom: 1px solid #dfdfdf;}
+
+#write-field tr:first-child {height: 40px; }
+
+.write-title {
+    width: 110px;
+    height: 53px;
+    font-size: 14px;
+    padding-left: 20px;
+    background-color: #3f4441;
+    font-weight: 500;
+    
+    color: #fff;
+}
+
+#write-field input[type=text] {
+    margin-left: 10px;
+    width: 1048px;
+    height: 33px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: 'Noto Sans KR';
+    padding-left: 20px;
+    color: #222;
+}
+
+#write-field textarea{
+    margin-left: 10px;
+    width: 1050px;
+    height: 248px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: 'Noto Sans KR';
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #222;
+}
+
+#write-field input[type=password] {
+    margin-left: 10px;
+    width: 298px;
+    height: 33px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    font-family: 'Noto Sans KR';
+    padding-left: 20px;
+    color: #222;
+}
+
+.contents {height: 250px;}
+
+.contents td:nth-child(2) {
+	padding-top:5px;
+}
+
+#write-btn {
+    float: right;
+}
+
+#write-btn .write-btns{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
